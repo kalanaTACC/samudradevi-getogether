@@ -73,7 +73,7 @@ function enter(){
 document.getElementById("enter").onclick=enter;
 var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.style.transitionDelay=(Array.prototype.indexOf.call(e.target.parentNode.children,e.target)%4)*.12+"s";e.target.classList.add("on");io.unobserve(e.target)}})},{threshold:.15});
 document.querySelectorAll(".rv").forEach(function(el){io.observe(el)});
-function countUp(){var e=document.getElementById("pn"),t0=null;function f(t){if(t0===null)t0=t;var p=Math.min(1,(t-t0)/1600);e.textContent=Math.round(8700*(1-Math.pow(1-p,3))).toLocaleString("en-US");if(p<1)requestAnimationFrame(f)}requestAnimationFrame(f)}
+function countUp(){var e=document.getElementById("pn"),t0=null;function f(t){if(t0===null)t0=t;var p=Math.min(1,(t-t0)/1600);e.textContent=Math.round(8000*(1-Math.pow(1-p,3))).toLocaleString("en-US");if(p<1)requestAnimationFrame(f)}requestAnimationFrame(f)}
 // angel guide
 var TIPS={
  hero:[["Hi! I'm your little guide. Scroll down to see everything.",null],["Tap here to jump to your tickets.","#home .btns .gold"],["Curious what's planned? Tap here.","#home .btns .ghost"]],
