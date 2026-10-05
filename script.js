@@ -79,7 +79,7 @@ var TIPS={
  hero:[["Hi! I'm your little guide. Scroll down to see everything.",null],["Tap here to jump to your tickets.","#home .btns .gold"],["Curious what's planned? Tap here.","#home .btns .ghost"]],
  info:[["15 November 2026, 9 AM to 3 PM, at the Grand Ballroom, Green Court, Homagama.",".details"],["Keep scrolling to see what's on that day.",null]],
  program:[["Pageant, DJ Shaggy, lunch and a photobooth, all in one day!",".prog"],["Ready? Your ticket is just below.",null]],
- tickets:[["One ticket covers the whole day. LKR 8,700.",".ticket"],["Tap the gold button to open the booking form.","#buy"]],
+ tickets:[["One ticket covers the whole day. LKR 8,000.",".ticket"],["Tap the gold button to open the booking form.","#buy"]],
  pay:[["The bank details for your ticket payment are here.",".bank"]],
  contact:[["Need help? Tap a number to call.",".contacts"],["Website or booking form trouble? Call these two.",".tech"]]};
 var aEl=document.getElementById("angel"),aBub=document.getElementById("abub"),aTxt=document.getElementById("atxt"),aRing=document.getElementById("aring"),aSet="",aI=0,aTarget=null,aTimer,aOn=false;
